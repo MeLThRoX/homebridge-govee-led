@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-govee-led",
+  "version": "0.0.8",
+  "author": "bwp91",
+  "description": "Homebridge plugin to control Govee devices.",
+  "license": "MIT",
+  "keywords": [
+    "homebridge",
+    "homebridge-plugin",
+    "homekit",
+    "govee"
+  ],
+  "engines": {
+    "node": ">=6.0.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "prettier": "2.1.2"
+  }
+}

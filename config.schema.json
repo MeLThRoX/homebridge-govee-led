@@ -1,0 +1,31 @@
+{
+    "pluginAlias": "Govee",
+    "pluginType": "platform",
+    "singular": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "title": "Name",
+                "type": "string",
+                "required": true,
+                "default": "Govee"
+            },
+            "apiKey": {
+                "title": "API Key",
+                "type": "string",
+                "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+                "placeholder": "00000000-4872-4a3e-9904-000000000000",
+                "required": true,
+                "description": "The API key linked to your Govee account."
+            },
+            "debug": {
+                "title": "Debug Logging",
+                "type": "boolean",
+                "required": true,
+                "description": "If enabled, more information will be added to the Homebridge log.",
+                "default": false
+            }
+        }
+    }
+}
