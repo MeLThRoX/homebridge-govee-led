@@ -1,9 +1,13 @@
 {
   "name": "homebridge-govee-led",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "author": "bwp91",
   "description": "Homebridge plugin to control Govee devices.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MeLThRoX/homebridge-govee-led.git"
+  },
   "keywords": [
     "homebridge",
     "homebridge-plugin",
