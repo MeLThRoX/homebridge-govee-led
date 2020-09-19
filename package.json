@@ -19,6 +19,7 @@
     "homebridge": ">=0.2.0"
   },
   "dependencies": {
+    "color-convert": "^2.0.1",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
